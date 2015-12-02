@@ -32,9 +32,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
+        setupView();
+        setData();
+        setListener();
         return true;
     }
-
+    public void setupView(){}
+    public void setData(){}
+    public void setListener(){}
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
