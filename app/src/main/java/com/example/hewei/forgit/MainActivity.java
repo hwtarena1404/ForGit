@@ -10,6 +10,9 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -42,8 +45,12 @@ public class MainActivity extends AppCompatActivity {
     public void setData(){
         int b = 2+3;
         int result = b+17;
-        Log.i("what","what fuck");
+        Log.i("what", "what fuck");
         int c = (int) (result + 2.11);
+        List<String> arr = new ArrayList<>();
+        arr.add("fuck");
+        arr.add("you");
+        int size = arr.size();
     }
     public void setListener(){}
     @Override
