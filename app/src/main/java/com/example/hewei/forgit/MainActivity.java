@@ -38,7 +38,10 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
     public void setupView(){}
-    public void setData(){}
+    public void setData(){
+        int b = 2+3;
+        int result = b+17;
+    }
     public void setListener(){}
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
