@@ -5,6 +5,7 @@ import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -41,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
     public void setData(){
         int b = 2+3;
         int result = b+17;
+        Log.i("what","what fuck");
+        int c = (int) (result + 2.11);
     }
     public void setListener(){}
     @Override
